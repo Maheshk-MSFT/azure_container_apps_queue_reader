@@ -41,8 +41,6 @@ az monitor log-analytics query --workspace $LOG_ANALYTICS_WORKSPACE_CLIENT_ID --
 
 ![3](https://user-images.githubusercontent.com/61469290/140043319-43654442-a064-4a92-9c80-bfb037efb730.PNG)
 
-![4](https://user-images.githubusercontent.com/61469290/140043328-4add77fb-55fb-4dcd-88ee-92d3e51377de.PNG)
-
 ![5](https://user-images.githubusercontent.com/61469290/140043335-b6c73114-b9fa-44e5-aa93-c7771596db0f.PNG)
 
 ![6](https://user-images.githubusercontent.com/61469290/140043339-a65ef0ea-f580-4d32-8b61-e3db34e38e10.PNG)
