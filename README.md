@@ -1,9 +1,4 @@
-![1](https://user-images.githubusercontent.com/61469290/140043268-6271e42a-7e69-4381-a80f-ee452794d463.PNG)
-![2](https://user-images.githubusercontent.com/61469290/140043308-35f8659b-8907-4c36-a98a-697f1b7fd8ad.PNG)
-![3](https://user-images.githubusercontent.com/61469290/140043319-43654442-a064-4a92-9c80-bfb037efb730.PNG)
-![4](https://user-images.githubusercontent.com/61469290/140043328-4add77fb-55fb-4dcd-88ee-92d3e51377de.PNG)
-![5](https://user-images.githubusercontent.com/61469290/140043335-b6c73114-b9fa-44e5-aa93-c7771596db0f.PNG)
-![6](https://user-images.githubusercontent.com/61469290/140043339-a65ef0ea-f580-4d32-8b61-e3db34e38e10.PNG)
+
 # azure_container_apps_queue_reader
 azure_container_apps_queue_reader
 
@@ -38,4 +33,17 @@ az storage message put --content "Hello Queue Reader App" --queue-name "myqueue"
 az deployment group create --resource-group "$RESOURCE_GROUP" --template-file ./queue.json --parameters environment_name="$CONTAINERAPPS_ENVIRONMENT" queueconnection="$QUEUE_CONNECTION_STRING" location="$LOCATION"
 
 az monitor log-analytics query --workspace $LOG_ANALYTICS_WORKSPACE_CLIENT_ID --analytics-query "ContainerAppConsoleLogs_CL | where ContainerAppName_s == 'queuereader' and Log_s contains 'Message ID'" --out table
+
+
+![1](https://user-images.githubusercontent.com/61469290/140043268-6271e42a-7e69-4381-a80f-ee452794d463.PNG)
+
+![2](https://user-images.githubusercontent.com/61469290/140043308-35f8659b-8907-4c36-a98a-697f1b7fd8ad.PNG)
+
+![3](https://user-images.githubusercontent.com/61469290/140043319-43654442-a064-4a92-9c80-bfb037efb730.PNG)
+
+![4](https://user-images.githubusercontent.com/61469290/140043328-4add77fb-55fb-4dcd-88ee-92d3e51377de.PNG)
+
+![5](https://user-images.githubusercontent.com/61469290/140043335-b6c73114-b9fa-44e5-aa93-c7771596db0f.PNG)
+
+![6](https://user-images.githubusercontent.com/61469290/140043339-a65ef0ea-f580-4d32-8b61-e3db34e38e10.PNG)
 
